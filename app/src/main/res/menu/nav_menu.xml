@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_ana_sayfa"
+        android:icon="@drawable/icon_ana_sayfa"
+        android:title="Ana Sayfa" />
+    <item
+        android:id="@+id/action_hemen_ara"
+        android:icon="@drawable/icon_hemen_ara"
+        android:title="Hemen Ara" />
+    <item
+        android:id="@+id/action_whatsapp"
+        android:icon="@drawable/icon_whatsapp"
+        android:title="Whatsapp" />
+    <item
+        android:id="@+id/action_sosyal_medya"
+        android:icon="@drawable/icon_sosyal_medya"
+        android:title="Sosyal Medya" />
+    <item
+        android:id="@+id/action_acil_numaralar"
+        android:icon="@drawable/icon_acil_numaralar"
+        android:title="Acil Numaralar" />
+    <item
+        android:id="@+id/action_basarilar"
+        android:icon="@drawable/icon_basarilar"
+        android:title="Başarılar" />
+    <item
+        android:id="@+id/action_banka_bilgilerimiz"
+        android:icon="@drawable/bank"
+        android:title="Banka Bilgilerimiz" />
+</menu>

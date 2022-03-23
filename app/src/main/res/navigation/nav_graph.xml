@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/action_ana_sayfa">
+
+    <fragment
+        android:id="@+id/action_ana_sayfa"
+        android:name="com.example.divansigorta2.AnaSayfaFragment"
+        android:label="fragment_ana_sayfa"
+        tools:layout="@layout/fragment_ana_sayfa" />
+    <fragment
+        android:id="@+id/action_banka_bilgilerimiz"
+        android:name="com.example.divansigorta2.BankaBilgileriFragment"
+        android:label="fragment_banka_bilgileri"
+        tools:layout="@layout/fragment_banka_bilgileri" />
+    <fragment
+        android:id="@+id/action_whatsapp"
+        android:name="com.example.divansigorta2.WhatsappFragment"
+        android:label="fragment_whatsapp"
+        tools:layout="@layout/fragment_whatsapp" />
+    <fragment
+        android:id="@+id/action_hemen_ara"
+        android:name="com.example.divansigorta2.HemenAraFragment"
+        android:label="fragment_hemen_ara"
+        tools:layout="@layout/fragment_hemen_ara" />
+    <fragment
+        android:id="@+id/action_sosyal_medya"
+        android:name="com.example.divansigorta2.SosyalMedyaFragment"
+        android:label="fragment_sosyal_medya"
+        tools:layout="@layout/fragment_sosyal_medya" />
+    <fragment
+        android:id="@+id/action_acil_numaralar"
+        android:name="com.example.divansigorta2.AcilNumaralarFragment"
+        android:label="fragment_acil_numaralar"
+        tools:layout="@layout/fragment_acil_numaralar" />
+    <fragment
+        android:id="@+id/action_basarilar"
+        android:name="com.example.divansigorta2.BasarilarFragment"
+        android:label="fragment_basarilar"
+        tools:layout="@layout/fragment_basarilar" />
+</navigation>
