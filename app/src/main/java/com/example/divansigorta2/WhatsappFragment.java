@@ -19,7 +19,7 @@ public class WhatsappFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_whatsapp, container,false);
 
         Intent intentWhatsapp = new Intent(Intent.ACTION_VIEW);
-        intentWhatsapp.setData(Uri.parse("http://api.whatsapp.com/send?phone=+9005377781010&&text=Merhaba"));
+        intentWhatsapp.setData(Uri.parse("http://api.whatsapp.com/send?phone=+9005555555555&&text=Merhaba"));
         startActivity(intentWhatsapp);
 
 
