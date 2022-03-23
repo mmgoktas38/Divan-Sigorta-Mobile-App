@@ -21,7 +21,7 @@ public class HemenAraFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_hemen_ara, container, false);
 
         Intent intent = new Intent(Intent.ACTION_DIAL);
-        intent.setData(Uri.parse("tel:05377781010"));
+        intent.setData(Uri.parse("tel:05555555555"));
         startActivity(intent);
 
         return view;
